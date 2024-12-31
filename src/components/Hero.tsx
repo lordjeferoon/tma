@@ -25,7 +25,7 @@ export const Hero = () => {
                 href="https://t.me/+iFNSuknzyEQ0OTdh"
                 target="_blank"
                 rel="noopener"
-                className="px-8 mt-2 py-4 text-md lg:text-lg font-medium text-center text-white bg-indigo-600 rounded-md w-full md:w-auto">
+                className="px-4 md:px-8 mt-2 py-4 text-md lg:text-lg font-medium text-center text-white bg-indigo-600 rounded-md w-full md:w-auto">
                 Únete a nuestro canal de Telegram
               </a>
             </div>
