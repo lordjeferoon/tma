@@ -17,7 +17,7 @@ export const Hero = () => {
               Tu Mejor Apuesta Perú
             </h1>
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              ¡Bienvenidos a "Tu Mejor Apuesta Perú"! 🌟 Un equipo consolidado desde el 2014, especializado en ofrecer el análisis más certero de fútbol y torneos internacionales, incluyendo partidos de la NBA. 🏀.
+              ¡Bienvenidos a Tu Mejor Apuesta Perú! 🌟 Un equipo consolidado desde el 2014, especializado en ofrecer el análisis más certero de fútbol y torneos internacionales, incluyendo partidos de la NBA. 🏀.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
