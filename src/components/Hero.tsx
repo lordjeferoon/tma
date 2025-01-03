@@ -20,15 +20,26 @@ export const Hero = () => {
               ¡Bienvenidos a Tu Mejor Apuesta Perú! 🌟 Un equipo consolidado desde el 2014, especializado en ofrecer el análisis más certero de fútbol y torneos internacionales, incluyendo partidos de la NBA. 🏀.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="https://t.me/+iFNSuknzyEQ0OTdh"
-                target="_blank"
-                rel="noopener"
-                className="px-4 md:px-8 mt-2 py-4 text-md lg:text-lg font-medium text-center text-white bg-indigo-600 rounded-md w-full md:w-auto">
-                Únete a nuestro canal de Telegram
-              </a>
-            </div>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 items-start space-y-3 sm:space-y-0">
+  <a
+    href="https://t.me/+iFNSuknzyEQ0OTdh"
+    target="_blank"
+    rel="noopener"
+    className="px-4 md:px-8 py-4 text-md lg:text-lg font-medium text-center text-white bg-[#0088cc] rounded-md w-full sm:w-1/2">
+    📢 Únete a nuestro canal de Telegram
+  </a>
+  <a
+    href="https://chat.whatsapp.com/IewvPfYaUABJig7IOXg6Ly"
+    target="_blank"
+    rel="noopener"
+    className="px-4 md:px-8 py-4 text-md lg:text-lg font-medium text-center text-white bg-[#25D366] rounded-md w-full sm:w-1/2">
+    💬 Únete a nuestro grupo de WhatsApp
+  </a>
+</div>
+
+
+
+
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
