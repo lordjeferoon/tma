@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
 import tma2 from "../../public/img/TMALogo2.jpg";
+import jugada from "../../public/img/jugada.jpeg";
 import bet365 from "../../public/img/Bet365Logo.png";
 import betano from "../../public/img/BetanoLogo.png";
 import betsson from "../../public/img/BetssonLogo.png";
@@ -21,31 +22,31 @@ export const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 items-start space-y-3 sm:space-y-0">
-  <a
-    href="https://t.me/+iFNSuknzyEQ0OTdh"
-    target="_blank"
-    rel="noopener"
-    className="px-4 md:px-8 py-4 text-md lg:text-lg font-medium text-center text-white bg-[#0088cc] rounded-md w-full sm:w-1/2">
-    📢 Únete a nuestro canal de Telegram
-  </a>
-  <a
-    href="https://chat.whatsapp.com/IewvPfYaUABJig7IOXg6Ly"
-    target="_blank"
-    rel="noopener"
-    className="px-4 md:px-8 py-4 text-md lg:text-lg font-medium text-center text-white bg-[#25D366] rounded-md w-full sm:w-1/2">
-    💬 Únete a nuestro grupo de WhatsApp
-  </a>
-</div>
-
-
-
+              <a
+                href="https://t.me/+iFNSuknzyEQ0OTdh"
+                target="_blank"
+                rel="noopener"
+                className="px-4 md:px-8 py-4 text-md lg:text-lg font-medium text-center text-white bg-[#0088cc] rounded-md w-full sm:w-1/2">
+                📢 Únete a nuestro canal de Telegram
+              </a>
+              <a
+                href="https://chat.whatsapp.com/IewvPfYaUABJig7IOXg6Ly"
+                target="_blank"
+                rel="noopener"
+                className="px-4 md:px-8 py-4 text-md lg:text-lg font-medium text-center text-white bg-[#25D366] rounded-md w-full sm:w-1/2">
+                💬 Únete a nuestro grupo de WhatsApp
+              </a>
+            </div>
 
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
+          <h2 className="text-center text-xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-3xl xl:leading-tight dark:text-white">
+              Jugada gratis - 04/01/2025
+            </h2>
             <Image
-              src={tma2}
+              src={jugada}
               width="616"
               height="617"
               className={"object-cover rounded-3xl"}
